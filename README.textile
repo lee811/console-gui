@@ -11,8 +11,8 @@ h3. Quick Start
 
 <pre><code>git clone https://github.com/lee811/console-gui.git
 cd console-gui
-chmod +x install
-./install
+chmod +x run
+./run
 </code></pre>
 
 
