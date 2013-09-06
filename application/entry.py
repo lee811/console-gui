@@ -23,7 +23,7 @@ def createOverlay(widget, width, height, valign='middle',
 		min_width=min_width, min_height=min_height,
 		top=top, bottom=bottom, right=right, left=left)
 
-def canvas():
+def draw():
 	global main
 	global loop
 	global palette

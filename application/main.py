@@ -11,45 +11,47 @@ def exit_program():
 
 def execute_result(button=None, widget=None):
     if widget == None:
-        # next screen
+	exit_program()
+        # next widget
         pass
     else:
         entry.main.original_widget = widget
 
-def execute_screen():
-    elements.Execute('bash ' + install_script).update_widget(second_result)
+def execute_widget():
+    elements.Execute('ls / -lh').update_widget(execute_result)
 
 def text_result(button):
     exit_program()
 
-def text_screen():
+def text_widget():
     text = elements.Text(title='Congratulations, ' + answers[-1] + '!', 
         text='text.txt')
     entry.main.original_widget = text.get_widget(text_result)
 
 def qna_result(button, qnaObj):
-    answers.append(qnaObj.answer)
-    text_screen()
+    if qnaObj.answer != '':
+       answers.append(qnaObj.answer)
+       text_widget()
 
-def qna_screen():
-    qna = elements.QnA(title='Screen #2', question='What is your name?')
+def qna_widget():
+    qna = elements.QnA(title='Widget #2', question='What is your name?')
     entry.main.original_widget = qna.get_widget(qna_result)
 
 def menu_result(button, choice):
     answers.append(choice)
-    qna_screen()
+    qna_widget()
 
-def menu_screen():
+def menu_widget():
     choices = ' 0 1 2 3 4 5 6 7 8 9'.split()
-    title = 'Screen #1'
+    title = 'Widget #1'
     question = 'Choose a number'
     menuObj = elements.Menu(title, question, choices)
     entry.main.original_widget = menuObj.get_widget(menu_result)
 
 install_script = "script.sh"
 answers = []
-entry.canvas()
-menu_screen()
+entry.draw()
+menu_widget()
 
 def start():
     entry.loop.run()
