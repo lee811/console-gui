@@ -1,9 +1,0 @@
-#!/usr/bin/python
-
-from installer import main
-from subprocess import call
-
-main.start()
-cmd = ["bash", main.install_script]
-cmd.extend(main.answers)
-call(cmd)
