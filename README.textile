@@ -1,6 +1,6 @@
 h1. console-gui
 
-A sample application developed using "urwid":http://excess.org/urwid/.
+A sample console-based GUI application developed using "urwid":http://excess.org/urwid/.
 
 h3. Requirements
 
