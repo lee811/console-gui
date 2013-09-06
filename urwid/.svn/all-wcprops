@@ -1,0 +1,185 @@
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/codejune/!svn/ver/39/scripts/urwid/installer/urwid
+END
+__init__.py
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/codejune/!svn/ver/39/scripts/urwid/installer/urwid/__init__.py
+END
+graphics.py
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/codejune/!svn/ver/39/scripts/urwid/installer/urwid/graphics.py
+END
+escape.py
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/codejune/!svn/ver/39/scripts/urwid/installer/urwid/escape.py
+END
+signals.py
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/codejune/!svn/ver/39/scripts/urwid/installer/urwid/signals.py
+END
+tests.py
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/codejune/!svn/ver/39/scripts/urwid/installer/urwid/tests.py
+END
+web_display.py
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/codejune/!svn/ver/39/scripts/urwid/installer/urwid/web_display.py
+END
+old_str_util.py
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/codejune/!svn/ver/39/scripts/urwid/installer/urwid/old_str_util.py
+END
+font.py
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/codejune/!svn/ver/39/scripts/urwid/installer/urwid/font.py
+END
+command_map.py
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/codejune/!svn/ver/39/scripts/urwid/installer/urwid/command_map.py
+END
+canvas.py
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/codejune/!svn/ver/39/scripts/urwid/installer/urwid/canvas.py
+END
+wimp.py
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/codejune/!svn/ver/39/scripts/urwid/installer/urwid/wimp.py
+END
+main_loop.py
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/codejune/!svn/ver/39/scripts/urwid/installer/urwid/main_loop.py
+END
+display_common.py
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/codejune/!svn/ver/39/scripts/urwid/installer/urwid/display_common.py
+END
+util.py
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/codejune/!svn/ver/39/scripts/urwid/installer/urwid/util.py
+END
+raw_display.py
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/codejune/!svn/ver/39/scripts/urwid/installer/urwid/raw_display.py
+END
+treetools.py
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/codejune/!svn/ver/39/scripts/urwid/installer/urwid/treetools.py
+END
+text_layout.py
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/codejune/!svn/ver/39/scripts/urwid/installer/urwid/text_layout.py
+END
+container.py
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/codejune/!svn/ver/39/scripts/urwid/installer/urwid/container.py
+END
+compat.py
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/codejune/!svn/ver/39/scripts/urwid/installer/urwid/compat.py
+END
+split_repr.py
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/codejune/!svn/ver/39/scripts/urwid/installer/urwid/split_repr.py
+END
+widget.py
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/codejune/!svn/ver/39/scripts/urwid/installer/urwid/widget.py
+END
+listbox.py
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/codejune/!svn/ver/39/scripts/urwid/installer/urwid/listbox.py
+END
+version.py
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/codejune/!svn/ver/39/scripts/urwid/installer/urwid/version.py
+END
+lcd_display.py
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/codejune/!svn/ver/39/scripts/urwid/installer/urwid/lcd_display.py
+END
+html_fragment.py
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/codejune/!svn/ver/39/scripts/urwid/installer/urwid/html_fragment.py
+END
+decoration.py
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/codejune/!svn/ver/39/scripts/urwid/installer/urwid/decoration.py
+END
+curses_display.py
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/codejune/!svn/ver/39/scripts/urwid/installer/urwid/curses_display.py
+END
+monitored_list.py
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/codejune/!svn/ver/39/scripts/urwid/installer/urwid/monitored_list.py
+END
+vterm_test.py
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/codejune/!svn/ver/39/scripts/urwid/installer/urwid/vterm_test.py
+END
+vterm.py
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/codejune/!svn/ver/39/scripts/urwid/installer/urwid/vterm.py
+END
