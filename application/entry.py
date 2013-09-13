@@ -30,8 +30,9 @@ def draw():
 
 	fill = urwid.Filler(urwid.Text("Welcome!"), 'top')
 	main = urwid.Padding(fill, left=0, right=0)
-	inner_overlay = createOverlay(main, 80, 80, valign='top', top=2, bottom=2)
+	inner_overlay = createOverlay(main, 80, 80, min_height=16, top=2, bottom=2)
 	overlay_map = urwid.AttrMap(inner_overlay, 'banner')
-	overlay = createOverlay(overlay_map, 70, 70, min_width=70, min_height=30)
+	overlay = createOverlay(overlay_map, 70, 70, min_width=70, min_height=20)
 	bg_map = urwid.AttrMap(overlay, 'bg')
 	loop = urwid.MainLoop(bg_map, palette, unhandled_input=exit_on_esc)
+
